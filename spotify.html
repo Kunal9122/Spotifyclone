@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify-web player:music for entertainment</title>
+</head>
+<body>
+<div class="body">
+    <div class="body1">
+        <i class="fa-brands fa-spotify" style="color: green; opacity: 0.8;"></i>
+    </div>
+    <div class="body2">
+        <div class="home">
+            <i class="fa-solid fa-house" style="color: #fff"></i>
+        </div>
+        <div class="search1">
+            <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>
+            <input type="text" class="search2" placeholder="What do you want to play?" >
+            <div class="line"></div>
+            <i class="fa-solid fa-lock" style="color: white; opacity: 0.7; margin-left: 5px;"></i>
+        </div>
+    </div>
+    <div class="body3">
+        <button>Explore Premium</button>
+        <div class="install">
+            <i class="fa-solid fa-circle-arrow-down" style="color: white;"></i>
+            <h4>InstallApp</h4>
+        </div>
+        <i class="fa-regular fa-bell" style="color: white;"></i>
+        <i class="fa-regular fa-circle-user" style="color: white;"></i>
+    </div>
+</div>
+<div class="maint">
+    <div class="sidebar">
+        <div class="nav1">
+            <img src="./assets/library_icon.png" alt="img" class="library">
+            <input type="text" placeholder="Your library" class="search3">
+            <i class="fa-solid fa-plus plus" style="color: #fff;" ></i>
+            <i class="fa-solid fa-arrow-right plus" style="color: #fff;"></i>
+        </div>
+        <div class="playlist1">
+            <div class="playlist">
+                <p>Playlist</p>
+            </div>
+            <div class="playlist">
+                <p>artist</p>
+            </div>
+            <div class="playlist">
+                <p>album</p>
+            </div>
+        </div>
+        <div class="recent">
+            <div class="ser">
+                <i class="fa-solid fa-magnifying-glass" style="color: white; margin-top: 2px;"></i>
+            </div>
+            <div class="rec">
+             <p>Recent</p>
+                <i class="fa-solid fa-bars" style="color: #fff;" id="rec"></i>
+            </div>
+        </div>
+        <div class="likedsong">
+            <img src="./assets/card1img.jpeg" alt="music" class="music1">
+          <div  class="text">
+            <h4 class="h41">Liked Songs</h4>
+            <p class="h41" style="margin-left: 3px; font-size: 13px; color:white; opacity: 0.7;"> Playlist.song</p>
+          </div>
+        </div>
+        <div class="likedsong">
+            <img src="./assets/card3img.jpeg" alt="music" class="music1">
+            <div  class="text">
+              <h4 class="h41">Mere pass tum ho</h4>
+              <p class="h41" style="margin-left: 3px; font-size: 13px; color:white; opacity: 0.7;">Rahat Fateh Ali</p>
+            </div>
+        </div>
+        <div class=" likedsong">
+            <img src="./assets/card4img.jpeg" alt="music" class="music1">
+            <div  class="text">
+              <h4 class="h41">LEO-Naa Ready</h4>
+              <p class="h41" style="margin-left: 3px; font-size: 13px; color:white; opacity: 0.7;">Lokesh Kanagaraj </p>
+            </div>
+        </div>
+        <div class=" likedsong">
+            <img src="./assets/92037952.webp" alt="music" class="music1">
+            <div  class="text">
+              <h4 class="h41">Arijit Singh</h4>
+              <p class="h41" style="margin-left: 3px; font-size: 13px; color:white; opacity: 0.7;">Artist</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="mainheader">
+            <div class="all"><span style="position: relative;top: 6px;right: 3px; font-weight: 600; font-size: 13px;">ALL</span></div>
+           <div class="music"><span style="position: relative;top: 6px; font-weight: 600 ;font-size:13px;">Music</span></div>
+           <div class="podcast" ><span style="position: relative;top: 6px; font-weight: 600; font-size:13px ;">Podcast</span></div>
+           <div class="audiobooks" ><span style="position: relative;top: 6px; font-weight: 600; font-size:13px;">Audiobooks</span></div>
+        </div>
+        <div class="main2">
+            <div class="made">
+                <a class="name">Made For Kunalyadav</a>
+               <a href="#" class="show">Show All</a>
+            </div>
+            <div class="songlist">
+                <div class="card">
+                    <img class="cadrhead" src="./assets/honeysingh.jpg" alt="Card Image">
+                    <!-- <h4 class="name"></h4> -->
+                    <p class="description">YO YO Honey Singh</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/rehman.jpg" alt="Card Image">
+                    <!-- <h4 class="name"></h4> -->
+                    <p class="description">A.R.Rehman</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/arijit.jpg" alt="Card Image">
+                    <!-- <h4 class="name"></h4> -->
+                    <p class="description">Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/palak.jpg" alt="Card Image">
+                    <!-- <h4 class="name"></h4> -->
+                    <p class="description">Palak Muchhal</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/shreya.jpg" alt="Card Image">
+                    <!-- <h4 class="name"></h4> -->
+                    <p class="description">Palak Muchhal</p>
+                </div>
+            </div>
+            <div class="made">
+                <a class="name">Recommanded for today</a>
+               <a href="#" class="show">Show All</a>
+            </div>
+            <div class="songlist">
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card2img.jpeg" alt="Card Image">
+                    <h4 class="name">Mahiya Jinna Sohna</h4>
+                    <p class="description">Darshan Raval</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card3img.jpeg" alt="Card Image">
+                    <h4 class="name">Mere pass tum ho</h4>
+                    <p class="description">Rahat Fateh Ali</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card4img.jpeg" alt="Card Image">
+                    <h4 class="name">LEO-Naa Ready</h4>
+                    <p class="description">Lokesh Kanagaraj</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/msdhoni.jpg" alt="Card Image">
+                    <h4 class="name">Kaun Tujhe</h4>
+                    <p class="description">Arman Malik , Palak Muchhal</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/kissik.jpg" alt="Card Image">
+                    <h4 class="name">Kissik</h4>
+                    <p class="description">Allu Arjun , Sreeleela</p>
+                </div>
+            </div>
+            <div class="made">
+                <a class="name">Featured Charts</a>
+               <!-- <a href="#" class="show">Show All</a> -->
+            </div>
+            <div class="songlist">
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card1img.jpeg" alt="Card Image" >
+                    <h4 class="name">Top 50 - Global</h4>
+                    <p class="description">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card5img.jpeg" alt="Card Image">
+                    <h4 class="name">Top Songs-India</h4>
+                    <p class="description">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                    <img class="cadrhead" src="./assets/card6img.jpeg" alt="Card Image">
+                    <h4 class="name">Top 50 - Global</h4>
+                    <p class="description">Your daily updates of the most played...</p>
+                </div>
+            </div>
+            <div class="last"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1"></div>
+        <div class="footer2">
+            <div class="playback">
+                <img src="./assets/player_icon1.png" alt="img" >
+                <img src="./assets/player_icon2.png" alt="img">
+                <img src="./assets/player_icon3.png" alt="img" style="height: 20px; width: 20px;">
+                <img src="./assets/player_icon4.png" alt="img">
+                <img src="./assets/player_icon5.png" alt="img">
+            </div>
+            <div class="audio">
+                <!-- <label for="rad"></label> -->
+                <input type="range" class="rad" min="0" max="100" step="1">
+            </div>
+        </div>
+        <div class="footer3">
+            <i class="fa-regular fa-circle-play foot"  style="color: #fff;"></i>
+            <i class="fa-solid fa-bars foot" style="color: #fff;"></i>
+            <i class="fa-solid fa-volume-lowm foot" style="color: #fff;"></i>
+            <input type="range" class="rad foot" min="0" max="100" step="1" style=" width:30%;opacity: 1;" >
+            <i class="fa-solid fa-arrow-up-right-from-square foot" style="color: #fff; margin-right: 50px;"></i>
+        </div>
+    </div>
+</div>
+   
+</body>
+</html>
